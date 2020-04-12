@@ -1,6 +1,7 @@
 def minNumCoins(M, c, d):
     # This algorithm will look up how many coins (of values present in the c array)
     # are needed to give the change back for M value
+    
     #This alg is inefficient as it doesn't reuse the previously calculated values and 
     #instead calculates them from new everytime it needs one
     if(M <= 0):
